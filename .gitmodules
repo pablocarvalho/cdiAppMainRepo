@@ -1,0 +1,6 @@
+[submodule "simpleCDIapp"]
+	path = simpleCDIapp
+	url = git@github.com:pablocarvalho/simpleCDIapp.git
+[submodule "cdiAppBackend"]
+	path = cdiAppBackend
+	url = git@github.com:pablocarvalho/cdiAppBackend.git
