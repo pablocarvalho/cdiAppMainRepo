@@ -64,18 +64,17 @@ When backend service receives a POST request, it calculates the accumulated TCDI
 
 ## Considerations
 
-Since my lack of experience with web development the project was made in a "learn while go" maner, a lot of the implementation is very naive. I think the hardest part was to implement that weird looking front. Well, in some way learning all the tecnologies involved on this test was really challenging too, the easyiest part was deploying it to heroku lol.
+Since my lack of experience with web development the project was made in a "learn while go" maner, a lot of the implementation is very naive. I think the hardest part was to implement that weird looking front. Well, in some way learning all the tecnologies involved on this test was really challenging too, the easiest part was deploying it to heroku lol.
 
 
 ### Things to Fix
 
 - Create unit tests for the backend and e2e for the front.
-- Input fields checking on frontend, right now the application have some bugs related to it.
-- There are no checks on the initial and final dates related to the disponible dates.
+- Input fields validation on frontend, right now the application have some bugs related to it.(For example, there is no validation of initial and final date)
 - Project architecture lacks of modularization and design, front and backend. No design or architectural patterns were applied, so the design could be improved A LOT.
 - The backend does not handle wrong requests, unknown json format and do not send error responses, there are some bugs related to it.
 - No comments on the code.
-- There is some random garbage around through the code.
+- There is some random garbage through the code.
 - the communication between front and back may take a while, so it would be nice to have a loading animation.
 
 ### Cool TO-DOs
