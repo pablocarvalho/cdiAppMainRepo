@@ -71,6 +71,7 @@ Since my lack of experience with web development the project was made in a "lear
 
 - Create unit tests for the backend and e2e for the front.
 - Input fields checking on frontend, right now the application have some bugs related to it.
+- There are no checks on the initial and final dates related to the disponible dates.
 - Project architecture lacks of modularization and design, front and backend. No design or architectural patterns were applied, so the design could be improved A LOT.
 - The backend does not handle wrong requests, unknown json format and do not send error responses, there are some bugs related to it.
 - No comments on the code.
